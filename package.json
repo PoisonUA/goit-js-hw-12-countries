@@ -1,0 +1,40 @@
+{
+  "name": "goit-js-hw-12-countries",
+  "version": "1.0.0",
+  "description": "Javascript 12 module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --open --mode development"
+  },
+  "author": "Vladyslav",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.6.4",
+    "@babel/preset-env": "^7.6.3",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.6",
+    "babel-preset-env": "^1.7.0",
+    "css-loader": "^3.2.0",
+    "handlebars": "^4.4.5",
+    "handlebars-loader": "^1.7.1",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.8.0",
+    "path": "^0.12.7",
+    "style-loader": "^1.0.0",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.9",
+    "webpack-dev-server": "^3.9.0"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PoisonUA/goit-js-hw-12-countries.git"
+  },
+  "bugs": {
+    "url": "https://github.com/PoisonUA/goit-js-hw-12-countries/issues"
+  },
+  "homepage": "https://github.com/PoisonUA/goit-js-hw-12-countries#readme"
+}
