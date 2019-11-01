@@ -1,6 +1,7 @@
 import './index.html';
 import './css/style.css';
 import fetchCountries from './js/fetchCountries.js'
+let _ = require('lodash');
 
 const inputForm = document.querySelector('.main__input');
 const targetSpan = document.querySelector('.target__span');
@@ -21,8 +22,7 @@ const preparingRequest = (e) => {
     } else {
         insertResultToDOM(dataFromInput);
     }
-    // .then(end => console.log(end));
 };
 
-inputForm.addEventListener('input', preparingRequest);
+inputForm.addEventListener('input', _.debounce(preparingRequest, 500));
 

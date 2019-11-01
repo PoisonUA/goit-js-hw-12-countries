@@ -15,7 +15,6 @@ export default function fetchCountries(dataFromInput) {
       return data;
     } else {
         return false;
-        // throw Error('All done');
     }
   })
   .then(country => {
@@ -24,7 +23,6 @@ export default function fetchCountries(dataFromInput) {
         return finalToPost;
     } else if (country.length < 11) {
         let listToPost = stringListCombiner(country);
-        console.log('10 стран');
         return listToPost;
     }
   })
