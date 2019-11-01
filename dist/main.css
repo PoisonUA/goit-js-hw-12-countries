@@ -1,0 +1,84 @@
+html {
+    box-sizing: border-box;
+    width: 100vw;
+    overflow-x: hidden;
+  }
+  
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+.main__input {
+    min-width: 200px;
+    min-height: 30px;
+    font-size: 16px;
+    border: solid 2px #2c2c2c;
+    border-radius: 5px;
+    outline: none;
+    padding: 0 10px 0 10px;
+    
+}
+
+.main__input::placeholder {
+    color: #b3b3b3;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.country__list {
+    font-size: 18px;
+    color: #0075aa;
+}
+
+.coutry__title {
+    text-align: center;
+    font-size: 46px;
+    color: #a30000;
+}
+
+.left__side {
+    width: 200px;
+}
+
+.right__side{
+    width: 500px;
+}
+
+.country__wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+[ui-pnotify].ui-pnotify.custom .ui-pnotify-container {
+    background-color: #ffd000;
+    background-image: none;
+    border: none;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    padding: 15px;
+    font-size: 15px;
+  }
+  [ui-pnotify].ui-pnotify.custom {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+    line-height: 1.1;
+  }
+  [ui-pnotify].ui-pnotify.custom .ui-pnotify-title,
+  [ui-pnotify].ui-pnotify.custom .ui-pnotify-text {
+    margin-left: 50px;
+    color: #000000;
+  }
+  [ui-pnotify].ui-pnotify.custom .ui-pnotify-title {
+    font-weight: bold;
+    font-size: 15px;
+  }
+  [ui-pnotify].ui-pnotify.custom .ui-pnotify-icon {
+    color: #FFA;
+  }
